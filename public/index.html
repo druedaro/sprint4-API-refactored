@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <meta name="author" content="David Rueda Rosas">
+    <meta name="description" content="Sprint 4 - API & TypeScript activities">
+    <title>Sprint 4 - API</title>
+</head>
+<body>
+    <div class="custom-background shape-1 min-h-screen bg-gray-100 relative overflow-hidden">
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="weather-section pt-8 pb-4">
+                <div class="location">
+                    <strong class="text-2xl font-bold text-gray-800">Barcelona</strong>
+                </div>
+                <div class="weather-info flex items-center space-x-3 text-gray-700 mt-2 ">
+                    <div id="weatherDescription" class="text-sm font-medium"></div>
+                    <div id="weatherIcon" class="w-6 h-6 bg-slate-300 rounded-md"></div>
+                    <div id="weatherTemp" class="text-sm font-medium"></div>
+                    <div id="weatherHumidity" class="text-sm font-medium"></div>
+                </div>
+            </div>
+
+            <div class="joke-section flex justify-center items-center h-[47rem]">
+                <div class="joke-container w-full max-w-2xl">
+                    <div class="card bg-white bg-opacity-80 backdrop-blur-sm rounded-3xl shadow-xl p-8 text-center relative">
+                        <div class="card-body">
+                            <h4 class="card-title text-3xl font-bold text-gray-800 mb-8">Ready for your joke?</h4>
+                            <p class="card-text text-gray-700 text-lg leading-relaxed mb-8 min-h-[60px]" id="jokesDiv"></p>
+                            <div id="ratingButtons" class="flex justify-center space-x-6 mb-8">
+                                <button aria-label="bad-face" class="btn btn-bad w-16 h-16 rounded-full border-2 border-gray-300 hover:border-gray-400 transition-all duration-300 bg-white" type="button" data-score="1"></button>
+                                <button aria-label="good-face" class="btn btn-good w-16 h-16 rounded-full border-2 border-gray-300 hover:border-gray-400 transition-all duration-300 bg-white" type="button" data-score="2"></button>
+                                <button aria-label="very-good-face" class="btn btn-very-good w-16 h-16 rounded-full border-2 border-gray-300 hover:border-gray-400 transition-all duration-300 bg-white" type="button" data-score="3"></button>
+                            </div>
+                            <button class="btn btn-primary bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200 shadow-lg" id="submitButton">Next Joke</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../dist/main.js"></script>
+</body>
+</html>
