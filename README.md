@@ -1,65 +1,65 @@
 # Sprint 4 IT Academy | TypeScript & API
 
-## Introducción
+## Introduction
 
-Esta es una aplicación web que muestra chistes desde dos APIs diferentes y también la información del tiempo en Barcelona. Los usuarios pueden puntuar estos chistes del 1 al 3.
+This is a web application that displays jokes from two different APIs and also shows the weather information in Barcelona. Users can rate the jokes from 1 to 3.  
 
 <br>
 
-## Instrucciones
+## Instructions
 
-1. Clonar el repositorio:
+1. Clone the repository:  
     ```bash
     $ git clone https://github.com/mmartincasas/Sprint-4
     ```
 
-2. Abre el proyecto en tu editor.
+2. Open the project in your editor.
 
-3. Instalar las dependencias del proyecto. Si usas `npm`:
+3. Install the project dependencies. If you are using `npm`:  
     ```bash
     $ npm install
     ```
 
-4. Compilar el código TypeScript a JavaScript. Puedes hacer esto ejecutando:
+4. Compile the TypeScript code into JavaScript by running:  
     ```bash
     $ tsc main.ts
     ```
 
-5. Abre `index.html` en tu navegador. Si prefieres un servidor local, puedes usar herramientas como `live-server` o `http-server`.
+5. Open `index.html` in your browser. If you prefer a local server, you can use tools such as `live-server` or `http-server`.
 
-6. Explora la aplicación y prueba las funcionalidades disponibles.
-
-<br>
-
-## Recursos
-
-- Los chistes son obtenidos de las siguientes APIs:
-    - [icanhazdadjoke](https://icanhazdadjoke.com/)
-    - [Chuck Norris API](https://api.chucknorris.io)
-
-- La información del tiempo se obtiene de:
-    - [OpenWeatherMap](http://openweathermap.org)
-
-- Las imágenes de fondo fueron generadas en:
-    - [Blobmaker](https://www.blobmaker.app/)
+6. Explore the application and test the available features.  
 
 <br>
 
-## Tecnologías
+## Resources
 
-- HTML
-- CSS / SCSS
-- TypeScript
-- Bootstrap
+- Jokes are fetched from the following APIs:  
+  - [icanhazdadjoke](https://icanhazdadjoke.com/)  
+  - [Chuck Norris API](https://api.chucknorris.io)  
+
+- Weather information is fetched from:  
+  - [OpenWeatherMap](http://openweathermap.org)  
+
+- Background images were generated using:  
+  - [Blobmaker](https://www.blobmaker.app/)  
 
 <br>
 
-## Contribuciones
+## Technologies
 
-Las contribuciones son bienvenidas. Si encuentras un error o deseas agregar una nueva funcionalidad, abre un issue o un pull request.
+- HTML  
+- CSS / SCSS  
+- TypeScript  
+- Bootstrap  
 
 <br>
 
-## Licencia
+## Contributions
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+Contributions are welcome. If you find a bug or want to add a new feature, feel free to open an issue or a pull request.  
+
+<br>
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
